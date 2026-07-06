@@ -1,5 +1,10 @@
 # legal-life-mailer
 
+> **⚠️ このリポジトリは非推奨(アーカイブ予定)です。**
+> legal&life サイト本体の Next.js フルリライトに伴い、本リポジトリの機能(メール送信・Resend Audience 管理)は
+> [legal-life](https://github.com/legal-life/legal-life) リポジトリ内の API Routes (`app/api/mail`, `app/api/mail/audience`) に統合されました。
+> 新規の変更・デプロイは legal-life リポジトリ側で行ってください。本リポジトリは参照用としてのみ残されています。
+
 legal&life のメール送信プロキシ (Vercel Functions + Resend)。
 
 Cloudflare Workers + MailChannels から移行しました

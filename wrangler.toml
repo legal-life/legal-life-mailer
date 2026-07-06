@@ -1,7 +1,0 @@
-name = "legal-life-mailer"
-main = "src/index.js"
-compatibility_date = "2024-09-23"
-
-# ローカルテスト用シークレット (本番は Cloudflare ダッシュボードで設定)
-# [vars]
-# RESEND_API_KEY = "re_xxxx"  ← コメントアウトのまま (本番にキーを書かない)

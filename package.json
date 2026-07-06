@@ -1,12 +1,10 @@
 {
   "name": "legal-life-mailer",
-  "version": "1.0.0",
-  "description": "Cloudflare Worker: Resend mail proxy for legal&life",
-  "main": "src/index.js",
+  "version": "2.0.0",
+  "description": "Vercel Functions: Resend mail proxy for legal&life",
+  "type": "module",
   "scripts": {
-    "deploy": "wrangler deploy"
-  },
-  "devDependencies": {
-    "wrangler": "^3.0.0"
+    "dev": "vercel dev",
+    "deploy": "vercel deploy --prod"
   }
 }
